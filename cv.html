@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon CV</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .search-bar {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 10px 20px;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .search-bar input {
+      border: none;
+      outline: none;
+      font-size: 18px;
+      flex: 1;
+      padding: 10px;
+      background: transparent;
+    }
+
+    .search-bar img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .cv-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .cv-container img {
+      width: 90%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .download-btn {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .download-btn:hover {
+      background-color: #2a65c1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="search-bar">
+    <input type="text" value="CV" disabled>
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png" alt="Search icon">
+  </div>
+
+  <div class="cv-container">
+    <img src="CV_GARRIGUES.png" alt="CV de Lorik">
+    <br>
+    <a href="CV_GARRIGUES.pdf" download class="download-btn">Télécharger le CV</a>
+
+
+    <button onclick="window.close()" style="
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+">
+  ⬅ Fermer et revenir
+</button>
+
+
+  </div>
+
+</body>
+</html>
