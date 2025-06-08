@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes Projets</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1612561713325-e7b57f8d8e70');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+    }
+
+    .search-bar {
+      margin-top: 40px;
+      margin-left: 400px;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 10px 20px;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .search-bar input {
+      border: none;
+      outline: none;
+      font-size: 18px;
+      flex: 1;
+      padding: 10px;
+      background: transparent;
+    }
+
+    .search-bar img {
+      width: 24px;
+      height: 24px;
+    }
+    
+
+    .container {
+      margin-top: 40px;
+      padding: 0 20px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .project {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      text-align: left;
+    }
+
+    .project a {
+      color: #00e0ff;
+      text-decoration: underline;
+      font-size: 18px;
+    }
+
+    .project p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+
+    <div class="search-bar">
+    <input type="text" value="MES PROJETS" disabled>
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png" alt="Search icon">
+  </div>
+
+  <div class="container">
+
+    <!-- Exemple de projet - Tu peux dupliquer ce bloc -->
+    <div class="project">
+      <a href="GARRIGUES_L-SAE13-Rapport.pdf.pdf" target="_blank"> Rapport - SAÉ 13 - Découvrir un dispositif de transmission</a>
+      <p>Dans le cadre de cette SAÉ, j’ai étudié le câble coaxial comme support de transmission de signaux numériques. Le projet s’est déroulé en deux phases : une analyse théorique des propriétés physiques du câble (atténuation, impédance, retard de propagation), puis une validation expérimentale en laboratoire.
+
+J’ai modélisé l’atténuation en fonction de la fréquence à l’aide de MATLAB/OCTAVE, en exploitant les données constructeur pour vérifier la loi √f. En TP, j’ai manipulé du matériel de mesure (générateur, oscilloscope) pour comparer les résultats théoriques aux mesures réelles.
+
+Ce projet m’a permis d’approfondir mes connaissances en transmission filaire, en traitement de données techniques, et d’appliquer concrètement des notions de physique appliquée, modélisation mathématique, et instrumentation électronique.</p>
+    </div>
+
+
+
+     <div class="project">
+      <a href="Projet_Thales _SAE_15_Thales10.pdf" target="_blank"> Rapport - SAÉ 15 - Traiter des données </a>
+      <p>Ce projet a été réalisé en collaboration avec Thales dans le cadre de la SAÉ 15. L’objectif était de concevoir un système complet permettant de prendre des photos de bords de test à l’aide d’un microcontrôleur Pico et d’un Raspberry Pi, puis de les afficher automatiquement dans une galerie web sécurisée.
+
+Nous avons développé une application web avec :
+
+Un système de gestion des comptes utilisateurs hiérarchisé (utilisateur simple, modérateur, super administrateur), avec des droits d’accès et d’action différenciés.
+
+Une interface de prise de photo pilotée à distance via le Raspberry, intégrant les images capturées dans une galerie dynamique.
+
+Une base de données pour gérer les utilisateurs, les images, et les journaux d’activité.
+
+Ce projet m’a permis de renforcer mes compétences en développement web full-stack, en programmation embarquée et en gestion des droits d’accès. J’ai aussi appris à travailler en mode projet avec un partenaire industriel, avec des contraintes de fiabilité et de sécurité.
+
+</p>
+    </div>
+
+
+ <!-- Exemple de projet - Tu peux dupliquer ce bloc -->
+    <div class="project">
+      <a href="GARRIGUES_Lorik_SAE12_Questions.pdf"  target="_blank"> Rapport Phase I - SAÉ12 - S'initier aux réseaux informatiques</a>
+      <a href="GARRIGUES_Lorik_Video.mp4"  target="_blank"> Vidéo Phase I - SAÉ12 - S'initier aux réseaux informatiques</a>
+      <p>Cette première partie du projet avait pour objectif de comprendre l’environnement réseau personnel, en analysant comment un ordinateur est connecté à Internet, et comment il est vu depuis différents niveaux du réseau.
+
+J’ai réalisé une série de manipulations pour :
+
+Identifier mon type d’accès Internet (box ou point d’accès mobile),
+
+Relever mon adresse IP publique (vue de l’extérieur) et privée (locale),
+
+Accéder aux paramètres réseau de ma machine (adresse IP, passerelle, DNS...),
+
+Visualiser l’architecture réseau domestique via un schéma avec les rôles des équipements (box, ordinateur, serveurs DNS/DHCP),
+
+Étudier la visibilité des adresses IP et MAC via l’outil Wireshark, à travers des échanges réseau comme un ping.
+
+Cette analyse m’a permis d’approfondir ma compréhension du fonctionnement des réseaux domestiques, de faire le lien entre théorie et environnement réel, et d’apprendre à utiliser des outils de diagnostic comme Wireshark ou des services comme bgp.he.net.</p>
+    </div>
+
+
+    <div class="project">
+      <a href="GARRIGUES_Lorik_SAE12_DEUXIEME_PARTIE.pdf"  target="_blank"> Rapport Phase II - SAÉ12 - S'initier aux réseaux informatiques</a>
+      <a href="GARRIGUES_Lorik_Partie_deux.mp4"  target="_blank"> Vidéo Phase II - SAÉ12 - S'initier aux réseaux informatiques</a>
+      <p>Dans cette seconde partie, j’ai abordé des aspects plus techniques et transversaux :
+
+Analyse du trafic réseau à l’aide de traceroute pour visualiser les routeurs traversés vers différents sites web (CNRS, YouTube, NYU), en identifiant les entités propriétaires des adresses IP et les numéros AS.
+
+Utilisation de Wireshark pour capturer et interpréter les flux réseau générés par les applications utilisées quotidiennement.
+
+Mesures énergétiques, en partant d’un simple électroménager (réfrigérateur américain), puis en étudiant la consommation d’un PC portable, notamment lors de l’utilisation intensive du processeur avec des outils comme stress ou cpustres.
+
+Calcul des émissions de CO₂ associées à l’usage de l’ordinateur, en fonction du mix énergétique (France vs Pologne), pour relier consommation numérique et impact écologique.
+
+Ce projet m’a permis d’acquérir une vision complète du réseau informatique, de la structure logique des échanges à leur empreinte énergétique réelle, tout en développant mes compétences en diagnostic, analyse de trafic et évaluation de consommation énergétique.</p>
+    </div>
+
+
+    <div class="project">
+      <a href="cyber security.pdf"  target="_blank"> Diaporama - SAÉ 14 - Se présenter sur Internet</a>
+      <p>Dans ce projet, il s’agissait d’analyser une cyberattaque ayant visé une entreprise connue, afin de comprendre son déroulement, ses conséquences, et les solutions pour s’en prémunir. Après avoir sélectionné une attaque marquante, nous avons étudié en détail les vecteurs d’intrusion, les failles exploitées (techniques ou humaines), ainsi que les impacts sur l’entreprise (financiers, opérationnels, réputationnels).
+
+La seconde partie du projet consistait à proposer des mesures de sécurité adaptées (techniques, organisationnelles et humaines) pour prévenir ce type d’attaque à l’avenir. Cela inclut des solutions comme la segmentation réseau, le durcissement des accès, la sensibilisation du personnel, et des systèmes de détection d’intrusion.
+
+Ce projet m’a permis d’acquérir une vision concrète des menaces en cybersécurité, de développer une approche rigoureuse d’analyse de risques, et de formuler des recommandations de sécurité réalistes et applicables dans un contexte professionnel.
+Ce travail nous a permis de comprendre les enjeux de la cybersécurité dans un environnement professionnel et personnel, et d’adopter une posture responsable face aux menaces numériques.
+
+Travail sur l'attaque de SFR . 
+
+</p>
+    </div>
+
+
+
+    <div class="project">
+      <a href="RAPPORT THALES SEM2.pdf"  target="_blank"> Phase de code Sae15 Projet Thales</a>
+      <p>Dans cette seconde phase du projet réalisé avec Thales, l’objectif était de concevoir et développer intégralement le système fonctionnel permettant la prise de photos à distance via un Raspberry Pi et un Pico, puis leur affichage sécurisé sur un site web dynamique.
+
+J’ai participé à l’ensemble de la chaîne technique :
+
+Développement web complet en PHP, HTML et CSS, avec gestion des rôles utilisateurs (admin, modérateur, utilisateur simple) et système de connexion sécurisé.
+
+Création et structuration d’une base de données (MySQL) pour gérer les utilisateurs, les logs, les images et les droits. Une mauvaise structuration empêchait le fonctionnement correct du système d’authentification et de la gestion de session.
+
+Scripts Python embarqués pour piloter le Pico (capture de photos) et communiquer avec le Raspberry Pi, en assurant l'envoi des fichiers vers le serveur.
+
+Mise en place de la liaison entre la base de données et l’interface web via PHP, pour permettre l’enregistrement et l’affichage dynamique des images dans la galerie.
+
+Intégration du stockage des logs, avec visualisation possible par les utilisateurs habilités.
+
+Ce projet m’a permis d’approfondir mes compétences en :
+
+Développement web back-end et base de données relationnelle,
+
+Programmation embarquée et interactions entre systèmes physiques et logiciels,
+
+Architecture client-serveur,
+
+Travail rigoureux en conditions semi-professionnelles avec un partenaire industriel.
+
+</p>
+    </div>
+    <!-- Copie ce bloc pour chaque projet -->
+    <!--
+    <div class="project">
+      <a href="pdf/TON_FICHIER.pdf" target="_blank">Nom du projet</a>
+      <p>Description rapide du projet ici.</p>
+    </div>
+    -->
+
+
+
+
+    <button onclick="window.close()" style="
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+">
+  ⬅ Fermer et revenir
+</button>
+
+  
+</a>
+
+
+  </div>
+
+  
+
+</body>
+</html>
